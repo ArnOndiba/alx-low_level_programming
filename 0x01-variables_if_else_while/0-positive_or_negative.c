@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- * main - check if n is < > or = to 0
- * description: find if a random number
- *          is +,- or 0
- * return: negative positive or zero
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -14,18 +15,13 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	/* description */
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
+	/* your code goes there */
+	if (n > 0
 		printf("%d is positive\n", n);
-	}
 	else if (n < 0)
-	{
 		printf("%d is negative\n", n);
-	}
 	else
 		printf("%d is zero\n", n);
-
 	return (0);
 }
