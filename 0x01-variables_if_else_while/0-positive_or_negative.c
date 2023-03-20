@@ -9,7 +9,7 @@
  * return: negative positive or zero
  */
 
-int main(void)
+int main()
 {
 	int n;
 
