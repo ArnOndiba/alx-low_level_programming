@@ -1,19 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Emtry point
- *
- * Return; Always 0 (success)
- */
-int main(void)
-{
-	char c;
+*  main - start  point
+* Description: print a to z
+* Return: 0
+*/
+		int main(void)
+	{
+		int cr;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
+		for (cr = 'a'; cr < 'z'; cr++)
+		{
+			putchar(cr);
 		}
-	putchar('\n');
-	return (0);
-}
+		putchar('\n');
+		return (0);
+	}
