@@ -5,11 +5,11 @@
 /**
  * main - check if n is < > or = to 0
  * description: find if a random number
- * is +,- or 0
+ *          is +,- or 0
  * return: negative positive or zero
  */
 
-int main()
+int main(void)
 {
 	int n;
 
