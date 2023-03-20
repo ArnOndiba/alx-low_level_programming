@@ -14,6 +14,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
+	/* description */
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
