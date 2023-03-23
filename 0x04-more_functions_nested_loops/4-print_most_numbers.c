@@ -1,14 +1,13 @@
 #include "main.h"
-
 /**
- * print_most_numbers - doesn´t print 2 n 4
+ * print_most_numbers - dont print 2 an4
+ *
  *
  * Return: 0
- */
-
+*/
 void print_most_numbers(void)
 {
-int i = 0;
+	int i = 0;
 
 	for ( ; i < 10 ; i++)
 	{
