@@ -1,17 +1,21 @@
 #include "main.h"
 
-/* _puts - prints formatted string
- * @str - variable input
+/**
+ * print_rev - prints formatted string
+ * @str: variable input
  * Return: nothing
  */
 void print_rev(char *s)
 {
 	int i = 0;
 
-	while (str[i] = '\0')
+	while (s[i] != '\0')
 	{
-		_putchar(str[i]);
-		i--;
+		i++;
+	}
+	while (i--)
+	{
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
