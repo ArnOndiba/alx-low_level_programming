@@ -1,7 +1,8 @@
 #include "main.h"
 
-/* _puts - prints formatted string
- * @str - variable input
+/**
+ *_puts - prints formatted string
+ * @str: variable input
  * Return: nothing
  */
 void _puts(char *str)
