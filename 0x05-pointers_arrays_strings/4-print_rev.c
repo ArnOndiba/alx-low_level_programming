@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints formatted string
- * @str: variable input
+ * @s: variable input
  * Return: nothing
  */
 void print_rev(char *s)
