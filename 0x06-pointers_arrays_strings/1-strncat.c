@@ -4,6 +4,7 @@
  * *_strncat - concatenates two string
  * @dest: variable input
  * @src: variable input
+ * @n: variable input
  *
  * Return: dest
  */
